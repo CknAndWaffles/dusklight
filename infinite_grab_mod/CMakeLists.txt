@@ -13,7 +13,7 @@ if (CMAKE_SOURCE_DIR STREQUAL CMAKE_CURRENT_SOURCE_DIR)
 endif ()
 
 add_mod(infinite_grab_mod
-    SOURCES  src/mod.cpp
+    SOURCES  mod.cpp
     FEATURES game
     MOD_JSON mod.json
 )
